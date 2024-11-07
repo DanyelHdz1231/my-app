@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(58, 20, 20);
+    overflow-y: auto;
+}
+
+.todoBox{
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 400px;
+  border-color: black;
+  align-items: center;
+  justify-content: center;
+  display: flex ;
+  flex-direction: column;
+}
+
+.todoBox>h1{
+  margin-bottom: 20px;
+}
+
+.todoBox>input, .todoBox>button, .todoBox>select{
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.todoBox>button{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todoBox>button:hover{
+  background-color: #0056b3;
+  height: 50px;
+}
+
+.todoBox>ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.lis{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #f0f0f0;
+  flex-direction: row;
+}
+
+.search{
+  margin-bottom: 15px;
+  height: 25px;
+}
